@@ -1,9 +1,27 @@
 body {
-    background-color:#000;
-    color:#EE90FF;
-    text-align:center;
+    background-color: #000;
+    color: #EE90FF;
+    text-align: center;
 }
 
 a {
-    color:#BBFFBB
+    color: #BBFFBB;
+}
+
+.bouncy {
+    animation: bounce 2s infinite;
+    animation-delay: calc(.2s * var(--i));
+}
+
+span.bouncy {
+    display: inline-block;
+}
+
+@keyframes bounce {
+  0%,40%,100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-0.3em);
+  }
 }
