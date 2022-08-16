@@ -4,8 +4,8 @@ body {
     text-align: center;
 }
 
-a {
-    color: #BBFFBB;
+.img-link {
+    text-decoration: none;
 }
 
 .bouncy {
