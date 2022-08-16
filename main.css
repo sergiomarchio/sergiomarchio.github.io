@@ -18,10 +18,10 @@ span.bouncy {
 }
 
 @keyframes bounce {
-  0%,40%,100% {
+  0%, 50%, 100% {
     transform: translateY(0);
   }
-  20% {
-    transform: translateY(-0.3em);
+  25% {
+    transform: translateY(-0.2em);
   }
 }
