@@ -1,6 +1,20 @@
+
+:root {
+  --accent-color: #111;
+  --background-color: #DDD;
+  --text-color: #551066;
+}
+
+.dark-theme {
+  --accent-color: #DDD;
+  --background-color: #111;
+  --text-color: #EE90FF;
+}
+
+
 body {
-    background-color: #000;
-    color: #EE90FF;
+    background-color: var(--background-color);
+    color: var(--text-color);
     text-align: center;
 }
 
@@ -17,6 +31,24 @@ body {
 span.bouncy {
     display: inline-block;
 }
+
+.button {
+    cursor: pointer;
+}
+
+.theme-selector {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    border: none;
+    top: 0;
+    right: 0;
+    width: 64px;
+    height: 64px;
+    margin: 5px;
+    border-radius: 100%;
+    position: absolute;
+}
+
 
 @keyframes bounce {
   0%, 50%, 100% {
