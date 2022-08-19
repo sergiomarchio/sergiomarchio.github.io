@@ -49,6 +49,10 @@ span.bouncy {
     position: absolute;
 }
 
+.svg-foreground {
+    fill: var(--accent-color);
+}
+
 
 @keyframes bounce {
   0%, 50%, 100% {
