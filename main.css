@@ -36,9 +36,7 @@ span.bouncy {
     cursor: pointer;
 }
 
-.theme-selector {
-    background-color: var(--accent-color);
-    color: var(--text-color);
+.round-button {
     border: none;
     top: 0;
     right: 0;
@@ -51,6 +49,10 @@ span.bouncy {
 
 .svg-foreground {
     fill: var(--accent-color);
+}
+
+.svg-background {
+    fill: var(--background-color);
 }
 
 
